@@ -120,12 +120,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (key) {
         keyDisplay.style.display = 'block'; // Hiển thị div khi có key
-        keyDisplay.innerHTML = `Code Credit: <strong>${key}</strong>`;
+        keyDisplay.innerHTML = `<strong>${key}</strong>`;
     }
 });
 
 // Tuyết rơi
-const snowmax = 40;
+const snowmax = 60;
 const snowcolor = ["#aaaacc", "#ddddff", "#ccccdd", "#f3f3f3", "#f0ffff"];
 const snowtype = ["Times", "Arial", "Times", "Verdana"];
 const snowletter = "*";
